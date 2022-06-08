@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.5",
+    "axios": "^0.27.2",
     "feather-icons": "^4.28.0",
     "framer-motion": "^4.1.5",
     "react": "^17.0.2",
