@@ -3,7 +3,7 @@ import "./style.css";
 import Message from "./Message";
 
 const Messages = ({ messages }) => {
-  console.log("Messages: " + messages);
+  console.log("Messages: " + JSON.stringify(messages));
   return (
     <div className="messagesSection">
       {messages.map(message => {
