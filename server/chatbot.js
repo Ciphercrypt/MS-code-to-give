@@ -5,8 +5,8 @@ const projectId = dialogflowConfig.projectId;
 const configuration = {
   credentials: {
     private_key: dialogflowConfig.privateKey,
-    client_email: dialogflowConfig.clientEmail
-  }
+    client_email: dialogflowConfig.clientEmail,
+  },
 };
 
 const sessionId = "987654";
@@ -22,16 +22,17 @@ async function talkToChatbot(message) {
     queryInput: {
       text: {
         text: message,
-        languageCode
-      }
-    }
+        languageCode,
+      },
+    },
   };
 
   const response = await sessionClient
     .detectIntent(botRequest)
     .then((responses) => {
-      //console.log(JSON.stringify(responses));
+      // console.log(JSON.stringify(responses));
       const requiredResponse = responses[0].queryResult;
+      console.log(responses);
       return requiredResponse;
     })
     .catch((error) => {
