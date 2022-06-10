@@ -7,5 +7,6 @@ Modal.setAppElement("#root");
 
 ReactDOM.render(
   <App />,
+
   document.getElementById("root")
 );
