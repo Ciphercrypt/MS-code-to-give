@@ -9,10 +9,11 @@ import HeaderBase, {
 } from "../headers/light.js";
 import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } from "components/misc/Layouts.js";
 import { SectionHeading } from "components/misc/Headings.js";
-import { SectionDescription } from "components/misc/Typography.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+import { SectionDescription2 } from "components/misc/Typography.js";
+import NewHeader from '../hero/Onlyheader.js'
+
 import logoImageSrc from "images/logo-light.svg";
-import serverIllustrationImageSrc from "images/server-illustration-2.svg";
+import serverIllustrationImageSrc from "images/man-removebg-preview.png";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
@@ -23,20 +24,16 @@ const PrimaryLink = tw(PrimaryLinkBase)`shadow-raised lg:bg-primary-400 lg:hocus
 const Container = tw(ContainerBase)``;
 const Row = tw.div`flex items-center flex-col lg:flex-row`;
 const Column = tw.div`lg:w-1/2`;
-const TextColumn = tw.div`text-center lg:text-left`;
+const TextColumn = tw.div`text-center lg:text-center`;
 const IllustrationColumn = tw(Column)`mt-16 lg:mt-0 lg:ml-16`;
-const Heading = tw(SectionHeading)`max-w-3xl lg:max-w-4xl lg:text-left leading-tight`;
-const Description = tw(SectionDescription)`mt-4 max-w-2xl text-gray-100 lg:text-base mx-auto lg:mx-0`;
-const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 sm:px-10 sm:py-5 bg-primary-400 inline-block hocus:bg-primary-500`;
+const Heading = tw(SectionHeading)`max-w-3xl lg:max-w-4xl lg:text-center leading-tight`;
+const Description = tw(SectionDescription2)`mt-4 max-w-2xl text-white lg:text-base mx-auto lg:mx-0`;
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
-  heading = "BUZZ WOMEN",
-  description = "Buzz Women is the global movement by and for women. We bring transformation within reach. And enable women to ignite their personal and collective power.",
-  primaryButtonText = "Start Your 15 Day Free Trial",
-  primaryButtonUrl = "#",
-  // imageSrc = "https://static.vecteezy.com/system/resources/thumbnails/001/413/580/small/woman-empowerment-awareness-concept-free-vector.jpg",
-  imageSrc = "https://static.vecteezy.com/system/resources/thumbnails/001/825/408/small_2x/happy-friendship-day-young-group-women-unity-relationship-special-event-celebration-free-vector.jpg",
+  heading = "HUMANOID BOT",
+  description = "There are some question which cannot be answered with generic responses from a bot, so here we present a humanoid bot. A human at your service 24/7 via the bot. Ask away anything!",
+  imageSrc = serverIllustrationImageSrc,
 }) => {
   const logoLink = (
     <LogoLink href="/">
@@ -53,16 +50,16 @@ export default ({
     </NavLinks>
   ];
   return (
-    <PrimaryBackgroundContainer style={{backgroundColor: "white"}}>
+    <PrimaryBackgroundContainer>
       <Content2Xl>
         {/* <Header logoLink={logoLink} links={navLinks} /> */}
+        < NewHeader />
         <Container>
           <ContentWithVerticalPadding>
             <Row>
               <TextColumn>
-                <Heading style={{color: "#3C0D99"}}>{heading}</Heading>
-                <Description style={{color: "black",fontSize:"20px"}}>{description}</Description>
-                {/* <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton> */}
+                <Heading>{heading}</Heading>
+                <Description>{description}</Description>
               </TextColumn>
               <IllustrationColumn>
                 <Image src={imageSrc} />

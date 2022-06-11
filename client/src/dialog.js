@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './styles/dialogStyle.css';
 
 export default function dialog(props) {
 
