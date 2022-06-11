@@ -10,11 +10,15 @@ import Footer from "components/footers/FiveColumnDark.js";
 import serverRedundancyIllustrationImageSrc from "images/server-redundancy-illustration.svg"
 import serverSecureIllustrationImageSrc from "images/server-secure-illustration.svg"
 import Dialog from "dialog";
+import NewHeader from "components/hero/Onlyheader";
+
 
 
 export default () => {
   return (
     <AnimationRevealPage>
+       <Dialog />
+      < NewHeader />
       <Hero />
       <Features />
       <MainFeature 
@@ -32,7 +36,7 @@ export default () => {
       />
       <Testimonial />
       <FAQ />
-      <Dialog></Dialog>
+     
       <Footer />
     </AnimationRevealPage>
   );

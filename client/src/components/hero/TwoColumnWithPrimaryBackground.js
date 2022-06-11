@@ -54,7 +54,7 @@ export default ({
   return (
     <PrimaryBackgroundContainer>
       <Content2Xl>
-        <Header logoLink={logoLink} links={navLinks} />
+        {/* <Header logoLink={logoLink} links={navLinks} /> */}
         <Container>
           <ContentWithVerticalPadding>
             <Row>
