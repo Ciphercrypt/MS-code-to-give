@@ -31,7 +31,9 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
+  heroDescription,
   heading = "BUZZ WOMEN",
+  heroTitle,
   description = "Buzz Women is the global movement by and for women. We bring transformation within reach. And enable women to ignite their personal and collective power.",
   primaryButtonText = "Start Your 15 Day Free Trial",
   primaryButtonUrl = "#",
@@ -60,8 +62,8 @@ export default ({
           <ContentWithVerticalPadding>
             <Row>
               <TextColumn>
-                <Heading style={{color: "#3C0D99"}}>{heading}</Heading>
-                <Description style={{color: "black",fontSize:"20px"}}>{description}</Description>
+                <Heading style={{color: "#3C0D99"}}>{heroTitle}</Heading>
+                <Description style={{color: "black",fontSize:"20px"}}>{ heroDescription}</Description>
                 {/* <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton> */}
               </TextColumn>
               <IllustrationColumn>

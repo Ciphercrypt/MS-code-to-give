@@ -49,33 +49,34 @@ const ControlButton = styled.button`
 
 export default ({
   subheading = "",
-  heading = "Blogs",
-  description = "Inspiration & Impact",
+  headingt,
+  descriptiont,
+  customername,
+  customerprofile,
+  quote ,
   testimonials = [
     {
-      customerName: "Salome Popiashvili",
-      customerProfile: "Berlin",
+      customerName: customername[0],
+      customerProfile: customerprofile[0],
       imageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
-      quote:
-      "In 2019 I traveled to Berlin to participate in Urban Remedy, a training program on public gardening. I arrived very prepared and got maximum knowledge from all the people who had experience and love for this work. When I returned to Georgia, I decided to design a community garden. "
+      quote: quote[0]
     },
     {
-      customerName: "Amma Jan B",
-      customerProfile: "Peresandra village, Chikkaballapura",
+      customerName: customername[1],
+      customerProfile: customerprofile[1],
       imageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=256&h=256&q=80",
       quote:
-        "I always wanted to study something that would add wings to my dreams. But, post my completion of PUC 2nd, though I had enrolled into BE Aeronautical Engineering, my parents got me married in between her course. This clipped my dreams of studying further. "
+      quote[1]
     },
     {
-      customerName: "Soumya",
-      customerProfile: "Sundhgarahatti, Chitradurga",
+      customerName: customername[2],
+      customerProfile: customerprofile[2],
       imageSrc:
         "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=256&h=256&q=80",
-      quote:
-        "Post training, I could understand the concept of running a business. I now write the accounts and I have mastered the book- keeping skills for my business. Apart from my business, through Buzz India, I now know the differences between ‘wants’ and ‘needs’. The income and expenses of the house has been balanced by changing certain spending habits. By cutting down unnecessary expenses."
-    }
+      quote:quote[2]
+ }
   ]
 }) => {
   const [sliderRef, setSliderRef] = useState(null)
@@ -85,8 +86,8 @@ export default ({
       <ContentWithPaddingXl>
         <HeadingContainer>
           {subheading && <Subheading>{subheading}</Subheading>}
-          <Heading style={{color: "#3C0D99"}}>{heading}</Heading>
-          <Description style={{color: "black"}}>{description}</Description>
+          <Heading style={{color: "#3C0D99"}}>{headingt}</Heading>
+          <Description style={{color: "black"}}>{descriptiont}</Description>
         </HeadingContainer>
         <TestimonialsSlider arrows={false} ref={setSliderRef}>
           {testimonials.map((testimonial, index) => (

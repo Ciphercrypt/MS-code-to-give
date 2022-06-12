@@ -32,6 +32,14 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
+  setBool1,
+ 
+  setBool2,
+  blog,
+  nlpbot,
+  human,
+  threed,
+  buzz,
   heading = "High Performant Servers tailored to your needs",
   description = "Our cloud provisions the best servers, with fast SSD, powerful Xeon Processors, whenever you need it. Oh, and we have 99.9% SLA",
   primaryButtonText = "Start Your 15 Day Free Trial",
@@ -41,15 +49,32 @@ export default ({
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
-      BUZZ WOMEN
+      {buzz}
     </LogoLink>
   );
+
+  const onClickBtn1 = () => {
+    setBool2(false);
+    setBool1(true); //disable button 2
+   
+    }
+  
+
+    const onClickBtn2 = () => {
+   
+      setBool1(false);
+      setBool2(true);
+      //disable button 2
+      }
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/blog">Blog</NavLink>
-      <NavLink href="http://192.168.0.239/">FAQ-bot</NavLink>
-      <NavLink href="/humanoid">Humanoid</NavLink>
-      <NavLink href="/3d">3D Bot</NavLink>
+      {/* <NavLink href="/blog">{blog}</NavLink> */}
+      <NavLink href="http://192.168.0.239/" target="_blank">{nlpbot}</NavLink>
+      <NavLink href="/humanoid">{human}</NavLink>
+      <NavLink href="https://creator.us.uneeq.io/try/e3f2ea5b-c8c1-4c20-9845-e545687cf40a" target="_blank">{threed}</NavLink>
+
+      <PrimaryLink onClick={onClickBtn1} >English</PrimaryLink>
+      <PrimaryLink  onClick={onClickBtn2} style={{backgroundColor:'green'}}>Hindi</PrimaryLink>
     </NavLinks>
   ];
   return (

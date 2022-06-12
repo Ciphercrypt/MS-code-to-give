@@ -51,8 +51,10 @@ const Card = styled.div`
 
 export default ({
   cards = null,
-  heading = "Amazing Features",
+  heading,
   subheading = "",
+  Descriptionb,
+  Headingb,
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 }) => {
   /*
@@ -66,17 +68,17 @@ export default ({
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "English Bot",
-      description: "Our english bot will guide you on business you are interested in  and  solve all your confusions so that you can start your business."
+      title: Headingb[0],
+      description:Descriptionb[0]
     },
-    { imageSrc: SupportIconImage, title: "Hindi Bot",description:"Hindi bot will guide you on business you are interested in Hindi language and solve all your confusions so that you can start your business.This can be used by illiterate people to communicate with our services." },
+    { imageSrc: SupportIconImage, title: Headingb[1],description:Descriptionb[1] },
     
-    { imageSrc: CustomizeIconImage, title: "Humanoid Bot" ,description:"Many-a-times we cannot get our queries clarified by some virtual bots. So, this page is for human interaction. You can talk directly with our volunteers through the chatbot"},
-    { imageSrc: ReliableIconImage, title: "3D Human support",description:"You can talk to a virtual human which will enhance your overall counselling experience. You will feel as if you are interacting with a real human." },
+    { imageSrc: CustomizeIconImage, title: Headingb[2] ,description:Descriptionb[2]},
+    { imageSrc: ReliableIconImage, title: Headingb[3],description: Descriptionb[3] },
 
-    { imageSrc: FastIconImage, title: "Telephonic support",description:"You can call us on +1 860-295-3477 and talk with our bot to clarify your queries. This feature will help people who do not have access to internet" },
+    { imageSrc: FastIconImage, title: Headingb[4],description: Descriptionb[4]},
 
-    { imageSrc: SimpleIconImage, title: "Social Media Support",description:"We have seen the usage of bots on social media on a vast level. So, the Stree Bot can also interact with you on your favorite social media platform." }
+    { imageSrc: SimpleIconImage, title: Headingb[5],description: Descriptionb[5]}
   ];
 
   if (!cards) cards = defaultCards;

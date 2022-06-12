@@ -1,0 +1,11 @@
+{
+
+    "hn": {
+        "header": "Willkommen",
+        "footer": "Auf Wiedersehen"
+      },
+      "eng": {
+        "header": "Welcome",
+        "footer": "Goodbye"
+      }
+}

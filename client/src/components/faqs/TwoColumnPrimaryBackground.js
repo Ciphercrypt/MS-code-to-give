@@ -29,39 +29,36 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 
 export default ({
   subheading = "",
-  heading = "Frequently Asked Questions",
+  headingf,
+  questions,
+  answer,
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   faqs = [
     {
-      question: "How can I contact buzz women?",
+      question: questions[0],
       answer:
-        "You can send a mail to `ask@buzzwomen.org` "
+         answer[0]
     },
     {
-      question: "Can I know about Buzz women?",
+      question: questions[1],
       answer:
-        "Buzz Women is the global movement by and for women. We bring transformation within reach and enable women to ignite their personal and collective power."
-    },
+      answer[1]},
     {
-      question: "Is any kind of financial help done by buzz women?",
+      question: questions[2],
       answer:
-        "Buzz women does not provide any cash or financial help , we will help you by mentoring you and provide enough knowledge so that you can take your decisions and start business."
-    },
+      answer[2]},
     {
-      question: "How can i get information of various business schemes?",
+      question: questions[3],
       answer:
-        "Here are some schemes provided by the government: Mudra Loan for Women, Annapurna Scheme, Stree Shakti Yojana, Dena Shakti Scheme"
-    },
+      answer[3] },
     {
-      question: "How can i grow my business? ",
+      question: questions[4],
       answer:
-        "Hire the right people , Focus on established revenue sources , Reduce your risks , Be adaptable , Focus on your customer experience ,Invest in yourself ,Always think ahead , Research your competitors."
-    },
+      answer[4]},
     {
-      question: "Can I  get business loan in village?",
+      question: questions[5],
       answer:
-        "Yes, you can apply for getting a business loan from any bank in your area.",
-    }
+      answer[5] }
   ]
 }) => {
   const faqCol1 = [];
@@ -114,7 +111,7 @@ export default ({
       <ContentWithPaddingXl>
         <HeadingContainer>
           {subheading && <Subheading>{subheading}</Subheading>}
-          <Heading>{heading}</Heading>
+          <Heading>{headingf}</Heading>
         </HeadingContainer>
         <FaqsContainer>
           <FaqsColumn>{faqCol1}</FaqsColumn>

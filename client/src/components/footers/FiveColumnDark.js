@@ -40,7 +40,16 @@ const CopyrightNotice = tw.div``
 const CompanyInfo = tw.div``
 
 const Divider = tw.div`my-8 border-b-2 border-gray-800`
-export default () => {
+export default ({
+  links,
+  blog,
+  faq,
+  human,
+  threed,
+  buzz,
+  address,
+  contact
+}) => {
   return (
     <Container>
       <Content>
@@ -68,47 +77,44 @@ export default () => {
             </SocialLinksContainer>
           </CompanyColumn> */}
           <Column>
-            <ColumnHeading>Quick Links</ColumnHeading>
+            <ColumnHeading>{links}</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="/blog">Blog</Link>
+                {/* <Link href="/blog">{blog}</Link> */}
               </LinkListItem>
               <LinkListItem>
-                <Link href="/faq">FAQs</Link>
+                <Link href="/faq">{faq}</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="/humanoid">Humanoid</Link>
+                <Link href="/humanoid">{human}</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="/3d">3D Bot</Link>
+                <Link href="/3d">{threed}</Link>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Buzz Women</LogoText>
+              <LogoText>{buzz}</LogoText>
             </LogoContainer>
             <CompanyAddress>
-              INDIA
-              #111, 11th Main Road, 15th Cross,
-              Malleshwaram
-              Bangalore–560003
+              {address}
             </CompanyAddress>
             <SocialLinksContainer>
-              <SocialLink href="https://www.facebook.com/buzzwomen/">
+              <SocialLink href="https://www.facebook.com/buzzwomen/" target="_blank">
                 <FacebookIcon />
               </SocialLink>
-              <SocialLink href="https://twitter.com/selfshakti">
+              <SocialLink href="https://twitter.com/selfshakti" target="_blank">
                 <TwitterIcon />
               </SocialLink>
-              <SocialLink href="https://www.youtube.com/channel/UCt9uEppIY2NR0HcsTthoFMw">
+              <SocialLink href="https://www.youtube.com/channel/UCt9uEppIY2NR0HcsTthoFMw" target="_blank">
                 <YoutubeIcon />
               </SocialLink>
             </SocialLinksContainer>
           </Column>
           <Column>
-            <ColumnHeading>Contact</ColumnHeading>
+            <ColumnHeading>{contact}</ColumnHeading>
             <LinkList>
               <LinkListItem>
                 +1 (234) (567)-8901

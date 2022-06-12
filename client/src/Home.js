@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 
 import Homepage from "screens/Homepage/Homepage";
-import Chat from "screens/chatbot/dialogflow/Chat";
 
-export default () => (
-  <>
+export default function Home() {
+
+  
+
+  return (
+    <>
     <Homepage />
-  </>
-);
+
+    {/* <Chat /> */}
+    </>
+  )
+}
