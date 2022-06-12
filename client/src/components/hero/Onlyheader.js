@@ -31,11 +31,15 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 
 const Image = tw.img`w-144 ml-auto`
 
 export default ({
+  setBool1,
+ 
+  setBool2,
   heading = "High Performant Servers tailored to your needs",
   description = "Our cloud provisions the best servers, with fast SSD, powerful Xeon Processors, whenever you need it. Oh, and we have 99.9% SLA",
   primaryButtonText = "Start Your 15 Day Free Trial",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
+  
 }) => {
   const logoLink = (
     <LogoLink href="/">
@@ -43,32 +47,39 @@ export default ({
       BUZZ WOMEN
     </LogoLink>
   );
+
+  const onClickBtn1 = () => {
+    setBool2(false);
+    setBool1(true); //disable button 2
+   
+    }
+  
+
+    const onClickBtn2 = () => {
+   
+      setBool1(false);
+      setBool2(true);
+      //disable button 2
+      }
+    
+ 
+    
+
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="/blog">Blog</NavLink>
       <NavLink href="/faq">FAQ</NavLink>
       <NavLink href="/humanoid">Humanoid</NavLink>
       <NavLink href="/3d">3D Bot</NavLink>
+      <PrimaryLink onClick={onClickBtn1} >English</PrimaryLink>
+      <PrimaryLink  onClick={onClickBtn2} style={{backgroundColor:'green'}}>Hindi</PrimaryLink>
     </NavLinks>
   ];
   return (
     <PrimaryBackgroundContainer>
       <Content2Xl>
         <Header logoLink={logoLink} links={navLinks} />
-        {/* <Container>
-          <ContentWithVerticalPadding>
-            <Row>
-              <TextColumn>
-                <Heading>{heading}</Heading>
-                <Description>{description}</Description>
-                <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              </TextColumn>
-              <IllustrationColumn>
-                <Image src={imageSrc} />
-              </IllustrationColumn>
-            </Row>
-          </ContentWithVerticalPadding>
-        </Container> */}
+       
       </Content2Xl>
     </PrimaryBackgroundContainer>
   );

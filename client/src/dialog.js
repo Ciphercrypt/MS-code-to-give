@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/dialogStyle.css';
 
-export default function dialog(props) {
+export default function dialog({visible}) {
 
   
 
@@ -14,6 +14,7 @@ export default function dialog(props) {
         chat-title="Stree"
         agent-id="aada74d0-e686-4088-b654-f0494573b8e7"
         language-code="en"
+        visible={visible}
       ></df-messenger>
   
 
