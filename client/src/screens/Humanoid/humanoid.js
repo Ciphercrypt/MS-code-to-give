@@ -16,7 +16,6 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero />
-      <Dialog></Dialog>
       <Footer />
     </AnimationRevealPage>
   );
