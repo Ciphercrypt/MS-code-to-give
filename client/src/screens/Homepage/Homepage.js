@@ -21,19 +21,6 @@ export default () => {
       < NewHeader />
       <Hero />
       <Features />
-      <MainFeature 
-        subheading="Reliable"
-        heading="Highly Redundant Servers With Backup"
-        imageSrc={serverRedundancyIllustrationImageSrc}
-        buttonRounded={false}
-      />
-      <MainFeature 
-        subheading="Secure"
-        heading="State of the Art Computer Security"
-        imageSrc={serverSecureIllustrationImageSrc}
-        buttonRounded={false}
-        textOnLeft={false}
-      />
       <Testimonial />
       <FAQ />
      

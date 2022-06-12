@@ -33,34 +33,34 @@ export default ({
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "How can I contact buzz women?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "You can send a mail to `ask@buzzwomen.org` "
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "Can I know about Buzz women?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Buzz Women is the global movement by and for women. We bring transformation within reach and enable women to ignite their personal and collective power."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "Is any kind of financial help done by buzz women?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Buzz women does not provide any cash or financial help , we will help you by mentoring you and provide enough knowledge so that you can take your decisions and start business."
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "How can i get information of various business schemes?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Here are some schemes provided by the government: Mudra Loan for Women, Annapurna Scheme, Stree Shakti Yojana, Dena Shakti Scheme"
     },
     {
-      question: "What kind of SLA Guarantee do you provide ? ",
+      question: "How can i grow my business? ",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Hire the right people , Focus on established revenue sources , Reduce your risks , Be adaptable , Focus on your customer experience ,Invest in yourself ,Always think ahead , Research your competitors."
     },
     {
-      question: "Where are the servers located ?",
+      question: "Can I  get business loan in village?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Yes, you can apply for getting a business loan from any bank in your area.",
     }
   ]
 }) => {
@@ -115,7 +115,6 @@ export default ({
         <HeadingContainer>
           {subheading && <Subheading>{subheading}</Subheading>}
           <Heading>{heading}</Heading>
-          <Description>{description}</Description>
         </HeadingContainer>
         <FaqsContainer>
           <FaqsColumn>{faqCol1}</FaqsColumn>

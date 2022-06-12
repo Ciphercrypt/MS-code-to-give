@@ -40,15 +40,15 @@ export default ({
   const logoLink = (
     <LogoLink href="/">
       <img src={logoImageSrc} alt="Logo" />
-      Treact
+      BUZZ WOMEN
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
-      <NavLink href="#">Login</NavLink>
-      <PrimaryLink href="#">Signup</PrimaryLink>
+      <NavLink href="/blog">Blog</NavLink>
+      <NavLink href="/faq">FAQ</NavLink>
+      <NavLink href="/humanoid">Humanoid</NavLink>
+      <NavLink href="/3d">3D Bot</NavLink>
     </NavLinks>
   ];
   return (

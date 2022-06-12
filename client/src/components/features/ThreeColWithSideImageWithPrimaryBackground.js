@@ -38,15 +38,12 @@ const Card = styled.div`
       ${tw`w-6 h-6`}
     }
   }
-
   .textContainer {
     ${tw`mt-6`}
   }
-
   .title {
     ${tw`tracking-wider font-bold text-xl leading-none`}
   }
-
   .description {
     ${tw`mt-2 font-normal text-gray-400 leading-snug`}
   }
@@ -69,14 +66,17 @@ export default ({
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security infrastructure."
+      title: "English Bot",
+      description: "Our english bot will guide you on business you are interested in  and  solve all your confusions so that you can start your business."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: SupportIconImage, title: "Hindi Bot",description:"Hindi bot will guide you on business you are interested in Hindi language and solve all your confusions so that you can start your business.This can be used by illiterate people to communicate with our services." },
+    
+    { imageSrc: CustomizeIconImage, title: "Humanoid Bot" ,description:"Many-a-times we cannot get our queries clarified by some virtual bots. So, this page is for human interaction. You can talk directly with our volunteers through the chatbot"},
+    { imageSrc: ReliableIconImage, title: "3D Human support",description:"You can talk to a virtual human which will enhance your overall counselling experience. You will feel as if you are interacting with a real human." },
+
+    { imageSrc: FastIconImage, title: "Telephonic support",description:"You can call us on +1 860-295-3477 and talk with our bot to clarify your queries. This feature will help people who do not have access to internet" },
+
+    { imageSrc: SimpleIconImage, title: "Social Media Support",description:"We have seen the usage of bots on social media on a vast level. So, the Stree Bot can also interact with you on your favorite social media platform." }
   ];
 
   if (!cards) cards = defaultCards;
@@ -86,7 +86,6 @@ export default ({
       <ThreeColumnContainer>
         {subheading && <Subheading>{subheading}</Subheading>}
         <Heading>{heading}</Heading>
-        {description && <Description>{description}</Description>}
         <VerticalSpacer />
         {cards.map((card, i) => (
           <Column key={i}>

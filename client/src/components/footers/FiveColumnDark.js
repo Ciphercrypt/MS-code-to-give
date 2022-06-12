@@ -45,7 +45,7 @@ export default () => {
     <Container>
       <Content>
         <FiveColumns>
-          <CompanyColumn>
+          {/* <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
               <LogoText>Treact Inc.</LogoText>
@@ -66,59 +66,65 @@ export default () => {
                 <YoutubeIcon />
               </SocialLink>
             </SocialLinksContainer>
-          </CompanyColumn>
+          </CompanyColumn> */}
           <Column>
             <ColumnHeading>Quick Links</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+                <Link href="/blog">Blog</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+                <Link href="/faq">FAQs</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Support</Link>
+                <Link href="/humanoid">Humanoid</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">About Us</Link>
+                <Link href="/3d">3D Bot</Link>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Product</ColumnHeading>
+            <LogoContainer>
+              <LogoImg src={LogoImage} />
+              <LogoText>Buzz Women</LogoText>
+            </LogoContainer>
+            <CompanyAddress>
+              INDIA
+              #111, 11th Main Road, 15th Cross,
+              Malleshwaram
+              Bangalore–560003
+            </CompanyAddress>
+            <SocialLinksContainer>
+              <SocialLink href="https://www.facebook.com/buzzwomen/">
+                <FacebookIcon />
+              </SocialLink>
+              <SocialLink href="https://twitter.com/selfshakti">
+                <TwitterIcon />
+              </SocialLink>
+              <SocialLink href="https://www.youtube.com/channel/UCt9uEppIY2NR0HcsTthoFMw">
+                <YoutubeIcon />
+              </SocialLink>
+            </SocialLinksContainer>
+          </Column>
+          <Column>
+            <ColumnHeading>Contact</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+                +1 (234) (567)-8901
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Personal</Link>
+                <Link href="mailto:support@servana.com">ask@buzzwomen.org</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Business</Link>
+                <Link href="https://www.buzzwomen.org/">https://www.buzzwomen.org/</Link>
               </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Team</Link>
-              </LinkListItem>
+              {/* <LinkListItem>
+                <Link href="#">Report Abuse</Link>
+              </LinkListItem> */}
             </LinkList>
           </Column>
-          <Column>
-            <ColumnHeading>Legal</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">GDPR</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Terms of Service</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Disclaimer</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
-          <Column>
+          {/* <Column>
             <ColumnHeading>Contact</ColumnHeading>
             <LinkList>
               <LinkListItem>
@@ -134,13 +140,13 @@ export default () => {
                 <Link href="#">Report Abuse</Link>
               </LinkListItem>
             </LinkList>
-          </Column>
+          </Column> */}
         </FiveColumns>
-        <Divider/>
+        {/* <Divider />
         <CopyrightAndCompanyInfoRow>
           <CopyrightNotice>&copy; Copyright 2020, Treact Inc.</CopyrightNotice>
           <CompanyInfo>An Internet Company.</CompanyInfo>
-        </CopyrightAndCompanyInfoRow>
+        </CopyrightAndCompanyInfoRow> */}
       </Content>
     </Container>
   );
