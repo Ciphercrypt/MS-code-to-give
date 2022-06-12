@@ -86,15 +86,13 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const { showNavLinks, animation, toggleNavbar } = useAnimatedNavToggler();
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
-  const defaultLogoLink = (
-    <LogoLink href="/">
-      <img src={logo} alt="logo" />
-      Treact
-    </LogoLink>
-  );
+  // const defaultLogoLink = (
+  //   <LogoLink href="/">
+  //     <img src={logo} alt="logo" />
+  //     Treact
+  //   </LogoLink>
+  // );
 
-  logoLink = logoLink || defaultLogoLink;
-  links = links || defaultLinks;
 
   return (
     <Header className={className || "header-light"}>

@@ -43,17 +43,14 @@ export default ({
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
-      <NavLink href="#">Login</NavLink>
-      <PrimaryLink href="#">Signup</PrimaryLink>
+      <NavLink href="/">🔙Back to Home</NavLink>
     </NavLinks>
   ];
   return (
     <PrimaryBackgroundContainer>
       <Content2Xl>
-        {/* <Header logoLink={logoLink} links={navLinks} /> */}
-        < NewHeader />
+        <Header  links={navLinks} />
+        {/* < NewHeader /> */}
         <Container>
           <ContentWithVerticalPadding>
             <Row>
