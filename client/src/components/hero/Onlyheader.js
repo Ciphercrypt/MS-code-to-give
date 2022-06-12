@@ -10,7 +10,6 @@ import HeaderBase, {
 import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } from "components/misc/Layouts.js";
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import NewHeader from "components/hero/Onlyheader";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import logoImageSrc from "images/buzzlogo.png";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
@@ -45,6 +44,7 @@ export default ({
   primaryButtonText = "Start Your 15 Day Free Trial",
   primaryButtonUrl = "#",
   imageSrc = serverIllustrationImageSrc,
+  
 }) => {
   const logoLink = (
     <LogoLink href="/">
@@ -81,20 +81,7 @@ export default ({
     <PrimaryBackgroundContainer>
       <Content2Xl>
         <Header logoLink={logoLink} links={navLinks} />
-        {/* <Container>
-          <ContentWithVerticalPadding>
-            <Row>
-              <TextColumn>
-                <Heading>{heading}</Heading>
-                <Description>{description}</Description>
-                <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              </TextColumn>
-              <IllustrationColumn>
-                <Image src={imageSrc} />
-              </IllustrationColumn>
-            </Row>
-          </ContentWithVerticalPadding>
-        </Container> */}
+       
       </Content2Xl>
     </PrimaryBackgroundContainer>
   );
