@@ -1,0 +1,40 @@
+df-messenger{
+    --df-messenger-bot-message:#e9e0fb;
+    --df-messenger-button-titlebar-color: #4d1bb0;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: black;
+    --df-messenger-send-icon: #878fac;
+    --df-messenger-user-message:  #d2c1f9;
+ }
+.button1 {
+    -webkit-font-smoothing: antialiased;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    letter-spacing: 1px;
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-out;
+  }
+  .button1:hover {
+    background-color: #90feb5;
+    color: #fff;
+  }
+  .button1:active {
+    transform: scale(0.95);
+  }
+  
+  button1:disabled{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
