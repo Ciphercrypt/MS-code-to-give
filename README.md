@@ -18,7 +18,7 @@
 ## 👩‍💻 Team members
 
 - **Avishkar Mohite** - avimohite2019@gmail.com
-- **Dhruv Kunjadiya** - 
+- **Dhruv Kunjadiya** - dhruvkunjadiya55@gmail.com
 - **Maitri Amin** - 
 - **Meloni Patel** -
 - **Naman Kothari** -
