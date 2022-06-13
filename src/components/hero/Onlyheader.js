@@ -70,7 +70,7 @@ export default ({
     <NavLinks key={1}>
       {/* <NavLink href="/blog">{blog}</NavLink> */}
       <NavLink href="http://192.168.0.239/" target="_blank">{nlpbot}</NavLink>
-      <NavLink href="/humanoid">{human}</NavLink>
+      <NavLink href="/MS-code-to-give/humanoid">{human}</NavLink>
       <NavLink href="https://creator.us.uneeq.io/try/e3f2ea5b-c8c1-4c20-9845-e545687cf40a" target="_blank">{threed}</NavLink>
 
       <PrimaryLink onClick={onClickBtn1} >English</PrimaryLink>
