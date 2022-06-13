@@ -85,6 +85,9 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 
 ![image](https://user-images.githubusercontent.com/84779934/173291419-2d7fa363-a4ac-482e-af0e-5028faa95349.png)
 
+![humanoid](https://user-images.githubusercontent.com/84779934/173450597-a6a435fa-9463-4d7c-8eef-0a84d9668ae6.jpeg)
+
+
 ![image](https://user-images.githubusercontent.com/84779934/173291839-9304d13a-a6cc-44ad-82e3-4ebcda3132ac.png)
 
 ![image](https://user-images.githubusercontent.com/84779934/173297357-1fd0439b-0402-4543-aae4-4f5c6ff5c5fb.png)
