@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="main">
+
+    <div class="card-wrapper  | content-cc">
+        <div class="faq-card">
+      
+          <div class="faq-ilustrations">
+      
+            <!-- mobile -->
+            <img class="mobile pattern" 
+                 src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/bg-pattern-mobile.svg">
+            </img>
+            <img class="mobile ilust" 
+                 src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg">
+            </img>
+            <!-- mobile -->
+          </div>
+      
+          <main class="faq-content">
+            <h1>FAQ</h1>
+      <div class="use">
+            <div class="faq-articles">
+      
+              <article class="faq-accordion">
+      
+                <input type="checkbox" class="tgg-title" id="tgg-title-1">
+      
+                <div class="faq-accordion-title">
+                  <label for="tgg-title-1">
+                      <div class="t1">
+                    <h2>What is the initiative of Buzz women?</h2>
+                </div>
+                    <span class="arrow-icon">
+                      <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                    </span>
+                  </label>
+                </div>
+      
+                <div class="faq-accordion-content">
+                  <p>Buzz Women is the global movement by and for women. We enable women to ignite their personal and collective power.</p>
+                </div>
+      
+              </article> <!-- faq accordion -->
+      
+              <article class="faq-accordion">
+      
+                <input type="checkbox" class="tgg-title" id="tgg-title-2">
+      
+                <div class="faq-accordion-title">
+                  <label for="tgg-title-2">
+                    <h2>
+                     Do buzz women help with cash or loan?
+                    </h2>
+                    <span class="arrow-icon">
+                      <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                    </span>
+                  </label>
+                </div>
+      
+                <div class="faq-accordion-content">
+                  <p>No , we will help you by mentoring you and provide enough knowledge so that you can take your decisions and start business.</p>
+                </div>
+      
+              </article> <!-- faq accordion -->
+      
+              <article class="faq-accordion">
+      
+                <input class="tgg-title" type="checkbox" id="tgg-title-3">
+      
+                <div class="faq-accordion-title">
+                  <label for="tgg-title-3">
+                    <h2>
+                        What are small business ideas that can be started by women in villages?
+                    </h2>
+                    <span class="arrow-icon">
+                      <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                    </span>
+                  </label>
+                </div>
+      
+                <div class="faq-accordion-content">
+                  <p>Tailoring , Daily Parlour , Poultry farming , Kirana Store , Vegetables Shop , Garments Store , bakery shop, tiffin business , beautician.</p>
+                </div>
+      
+              </article> <!-- faq accordion -->
+      
+              <article class="faq-accordion">
+      
+                <input class="tgg-title" type="checkbox" id="tgg-title-4">
+      
+                <div class="faq-accordion-title">
+                  <label for="tgg-title-4">
+                    <h2>
+                How can i get information of various business schemes?
+                    </h2>
+                    <span class="arrow-icon">
+                      <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                    </span>
+                  </label>
+                </div>
+      
+                <div class="faq-accordion-content">
+                  <p>
+                    Here are some schemes provided by the government: Mudra Loan for Women, Annapurna Scheme, Stree Shakti Yojana, Dena Shakti Scheme.</p>
+                </div>
+      
+              </article> <!-- faq accordion -->
+      
+              <article class="faq-accordion">
+      
+                <input class="tgg-title" type="checkbox" id="tgg-title-5">
+      
+                <div class="faq-accordion-title">
+                  <label for="tgg-title-5">
+                    <h2>
+                    How can I contact buzz women?
+                    </h2>
+                    <span class="arrow-icon">
+                      <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg">
+                    </span>
+                  </label>
+                </div>
+      
+                <div class="faq-accordion-content">
+                  <p>you can send a mail to "ask@buzzwomen.org" </p>
+             </div>
+      
+              </article> <!-- faq accordion -->
+      
+            </div> <!-- faq articles -->
+        </div>
+      
+          </main> <!-- faq -->
+      
+        </div> <!-- faq card -->
+      
+      </div> <!-- card wrapper -->
+   
+      <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi I am buzz women Bot. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+            </div>
+</div>
+
+    </div>
+    <div class="dhruv">
+        <!-- <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div> -->
+        <h1></h1>
+    </div>
+<div class="container">
+   
+
+   
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+
+</body>
+</html>
