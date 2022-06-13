@@ -21,8 +21,8 @@
 - **Dhruv Kunjadiya** - dhruvkunjadiya55@gmail.com
 - **Maitri Amin** - 
 - **Meloni Patel** -
-- **Naman Kothari** -
-- **Siddesh Pisal** -
+- **Naman Kothari** - 
+- **Siddesh Pisal** - siddheshpisal76@gmail.com
 
 
 ## 👨‍🏫 Mentors
@@ -84,6 +84,9 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 ![image](https://user-images.githubusercontent.com/84779934/173291419-2d7fa363-a4ac-482e-af0e-5028faa95349.png)
 
 ![image](https://user-images.githubusercontent.com/84779934/173291839-9304d13a-a6cc-44ad-82e3-4ebcda3132ac.png)
+
+![image](https://user-images.githubusercontent.com/84779934/173294175-7fbc89cf-8202-47d4-b6ee-482abecd913a.png)
+
 
 
 ## Demo Video Drive Link
