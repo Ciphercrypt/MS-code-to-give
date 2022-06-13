@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/MS-code-to-give/static/css/main.7479bd10.chunk.css",
+    "main.js": "/MS-code-to-give/static/js/main.6f92f2cb.chunk.js",
+    "main.js.map": "/MS-code-to-give/static/js/main.6f92f2cb.chunk.js.map",
+    "runtime-main.js": "/MS-code-to-give/static/js/runtime-main.a64face6.js",
+    "runtime-main.js.map": "/MS-code-to-give/static/js/runtime-main.a64face6.js.map",
+    "static/css/2.df954f26.chunk.css": "/MS-code-to-give/static/css/2.df954f26.chunk.css",
+    "static/js/2.dd7f5342.chunk.js": "/MS-code-to-give/static/js/2.dd7f5342.chunk.js",
+    "static/js/2.dd7f5342.chunk.js.map": "/MS-code-to-give/static/js/2.dd7f5342.chunk.js.map",
+    "index.html": "/MS-code-to-give/index.html",
+    "static/css/2.df954f26.chunk.css.map": "/MS-code-to-give/static/css/2.df954f26.chunk.css.map",
+    "static/css/main.7479bd10.chunk.css.map": "/MS-code-to-give/static/css/main.7479bd10.chunk.css.map",
+    "static/js/2.dd7f5342.chunk.js.LICENSE.txt": "/MS-code-to-give/static/js/2.dd7f5342.chunk.js.LICENSE.txt",
+    "static/media/arrow-left-3-icon.d48c6bae.svg": "/MS-code-to-give/static/media/arrow-left-3-icon.d48c6bae.svg",
+    "static/media/arrow-right-3-icon.d415f77e.svg": "/MS-code-to-give/static/media/arrow-right-3-icon.d415f77e.svg",
+    "static/media/buzzlogo.40475077.png": "/MS-code-to-give/static/media/buzzlogo.40475077.png",
+    "static/media/chevron-down.svg": "/MS-code-to-give/static/media/chevron-down.c3e123cf.svg",
+    "static/media/customize-icon.367468c9.svg": "/MS-code-to-give/static/media/customize-icon.367468c9.svg",
+    "static/media/facebook-icon.8f6512c4.svg": "/MS-code-to-give/static/media/facebook-icon.8f6512c4.svg",
+    "static/media/fast-icon.dbb971a7.svg": "/MS-code-to-give/static/media/fast-icon.dbb971a7.svg",
+    "static/media/logo-light.d9a5d1b5.svg": "/MS-code-to-give/static/media/logo-light.d9a5d1b5.svg",
+    "static/media/logo.2c489fc4.svg": "/MS-code-to-give/static/media/logo.2c489fc4.svg",
+    "static/media/man-removebg-preview.1260fd3e.png": "/MS-code-to-give/static/media/man-removebg-preview.1260fd3e.png",
+    "static/media/menu.svg": "/MS-code-to-give/static/media/menu.644fa295.svg",
+    "static/media/quotes-l.075e0fe3.svg": "/MS-code-to-give/static/media/quotes-l.075e0fe3.svg",
+    "static/media/reliable-icon.1367510a.svg": "/MS-code-to-give/static/media/reliable-icon.1367510a.svg",
+    "static/media/server-illustration-2.759ff537.svg": "/MS-code-to-give/static/media/server-illustration-2.759ff537.svg",
+    "static/media/shield-icon.daefe14b.svg": "/MS-code-to-give/static/media/shield-icon.daefe14b.svg",
+    "static/media/simple-icon.673b7e17.svg": "/MS-code-to-give/static/media/simple-icon.673b7e17.svg",
+    "static/media/support-icon.f9253ffa.svg": "/MS-code-to-give/static/media/support-icon.f9253ffa.svg",
+    "static/media/twitter-icon.828ecd04.svg": "/MS-code-to-give/static/media/twitter-icon.828ecd04.svg",
+    "static/media/x.svg": "/MS-code-to-give/static/media/x.6c9a4ba7.svg",
+    "static/media/youtube-icon.10cce4d9.svg": "/MS-code-to-give/static/media/youtube-icon.10cce4d9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a64face6.js",
+    "static/css/2.df954f26.chunk.css",
+    "static/js/2.dd7f5342.chunk.js",
+    "static/css/main.7479bd10.chunk.css",
+    "static/js/main.6f92f2cb.chunk.js"
+  ]
+}
