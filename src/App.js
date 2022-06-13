@@ -14,11 +14,11 @@ export default function App() {
   return (
     <Router>
     <Switch>
-        <Route exact path="/"><Home/></Route>
-        <Route exact path='/blog'><Home/></Route>
-        <Route exact path='/faq'><Home/></Route>
-        <Route exact path='/humanoid'><Humanoid/></Route>
-        <Route exact path='/3d'><Home/></Route>
+        <Route exact path="/MS-code-to-give"><Home/></Route>
+        <Route exact path='/MS-code-to-give/blog'><Home/></Route>
+        <Route exact path='/MS-code-to-give/faq'><Home/></Route>
+        <Route exact path='/MS-code-to-give/humanoid'><Humanoid/></Route>
+        <Route exact path='/MS-code-to-give/3d'><Home/></Route>
       </Switch>
   
     </Router>
