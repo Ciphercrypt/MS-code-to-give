@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MS-code-to-give/static/css/main.7479bd10.chunk.css",
-    "main.js": "/MS-code-to-give/static/js/main.6f92f2cb.chunk.js",
-    "main.js.map": "/MS-code-to-give/static/js/main.6f92f2cb.chunk.js.map",
+    "main.js": "/MS-code-to-give/static/js/main.8993c9ed.chunk.js",
+    "main.js.map": "/MS-code-to-give/static/js/main.8993c9ed.chunk.js.map",
     "runtime-main.js": "/MS-code-to-give/static/js/runtime-main.a64face6.js",
     "runtime-main.js.map": "/MS-code-to-give/static/js/runtime-main.a64face6.js.map",
     "static/css/2.df954f26.chunk.css": "/MS-code-to-give/static/css/2.df954f26.chunk.css",
@@ -38,6 +38,6 @@
     "static/css/2.df954f26.chunk.css",
     "static/js/2.dd7f5342.chunk.js",
     "static/css/main.7479bd10.chunk.css",
-    "static/js/main.6f92f2cb.chunk.js"
+    "static/js/main.8993c9ed.chunk.js"
   ]
 }
