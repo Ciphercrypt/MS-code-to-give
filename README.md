@@ -20,8 +20,8 @@
 - **Avishkar Mohite** - avimohite2019@gmail.com
 - **Dhruv Kunjadiya** - dhruvkunjadiya55@gmail.com
 - **Maitri Amin** - 
-- **Meloni Patel** -
-- **Naman Kothari** - 
+- **Meloni Patel** - Melonip137@gmail.com
+- **Naman Kothari** - namankothari0512@gmail.com 
 - **Siddesh Pisal** - siddheshpisal76@gmail.com
 
 
@@ -85,7 +85,8 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 
 ![image](https://user-images.githubusercontent.com/84779934/173291839-9304d13a-a6cc-44ad-82e3-4ebcda3132ac.png)
 
-![image](https://user-images.githubusercontent.com/84779934/173294175-7fbc89cf-8202-47d4-b6ee-482abecd913a.png)
+![image](https://user-images.githubusercontent.com/84779934/173295471-09f48890-7d25-4878-aaed-65602d9394bc.png)
+
 
 
 
