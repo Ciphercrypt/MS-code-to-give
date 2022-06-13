@@ -100,4 +100,6 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 
 ## 🔮 Future Work
 
-- [ ] We will try to integrate whatsapp and our bot.
+- [ ] Create a domain suggestion form based on skills and place of living.
+- [ ] Add more language options.
+- [ ] Create a react native app.
