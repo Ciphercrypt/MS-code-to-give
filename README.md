@@ -18,11 +18,11 @@
 ## 👩‍💻 Team members
 
 - **Avishkar Mohite** - avimohite2019@gmail.com
-- **Dhruv Kunjadiya** - 
-- **Maitri Amin** - 
-- **Meloni Patel** -
-- **Naman Kothari** -
-- **Siddesh Pisal** -
+- **Dhruv Kunjadiya** - dhruvkunjadiya55@gmail.com
+- **Maitri Amin** -  aminmaitri2001@gmail.com
+- **Meloni Patel** - Melonip137@gmail.com
+- **Naman Kothari** - namankothari0512@gmail.com 
+- **Siddesh Pisal** - siddheshpisal76@gmail.com
 
 
 ## 👨‍🏫 Mentors
@@ -62,12 +62,14 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 
 ## 🤖 Technology Stack
 
-- Front-end -![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
 ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff)
-
-- We have made our chatbot using __Dialogflow__ and FAQ bot using __NLP__.
+<br>
+<br>
+<img src="https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
 
 
 
@@ -84,6 +86,11 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 ![image](https://user-images.githubusercontent.com/84779934/173291419-2d7fa363-a4ac-482e-af0e-5028faa95349.png)
 
 ![image](https://user-images.githubusercontent.com/84779934/173291839-9304d13a-a6cc-44ad-82e3-4ebcda3132ac.png)
+
+![image](https://user-images.githubusercontent.com/84779934/173297357-1fd0439b-0402-4543-aae4-4f5c6ff5c5fb.png)
+
+
+
 
 
 ## Demo Video Drive Link
