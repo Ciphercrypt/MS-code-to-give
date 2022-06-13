@@ -19,7 +19,7 @@
 
 - **Avishkar Mohite** - avimohite2019@gmail.com
 - **Dhruv Kunjadiya** - dhruvkunjadiya55@gmail.com
-- **Maitri Amin** - 
+- **Maitri Amin** -  aminmaitri2001@gmail.com
 - **Meloni Patel** - Melonip137@gmail.com
 - **Naman Kothari** - namankothari0512@gmail.com 
 - **Siddesh Pisal** - siddheshpisal76@gmail.com
