@@ -96,9 +96,8 @@ To help Buzz-women in their amazing work we have made a chat-bot which will help
 ## Demo Video Drive Link
 
 
-## Website Link:
 
 
 ## 🔮 Future Work
 
-- [ ] 
+- [ ] We will try to integrate whatsapp and our bot.
